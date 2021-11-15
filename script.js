@@ -38,17 +38,17 @@ window.onload = () => {
     $('.header .header-2').classList.remove('active')
   }
 
-  fadeOut();
+  // fadeOut();
 }
 
 //  loader 
-function loader() {
-  $('.loader-container').classList.add('active');
-}
+// function loader() {
+//   $('.loader-container').classList.add('active');
+// }
 
-function fadeOut() {
-  setTimeout(loader, 2000)
-}
+// function fadeOut() {
+//   setTimeout(loader, 2000)
+// }
 
 // slide
 var swiper = new Swiper(".featured-slider", {

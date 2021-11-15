@@ -712,7 +712,7 @@ section {
   color: var(--green);
 }
 
-.loader-container {
+/* .loader-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -731,7 +731,8 @@ section {
 
 .loader-container img {
   height: 10rem;
-}
+} */
+
 /* media queries */
 @media (max-width: 991px) {
   html {
